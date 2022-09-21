@@ -14,11 +14,11 @@ namespace lab_2_3_oop
 
             Console.WriteLine("Type an employee's expirience:");
             employee.expirience = Convert.ToInt32(Console.ReadLine());
-            employee.Post();
+            employee.PostChoosing();
 
             Console.WriteLine("Type employee's work hours:");
             employee.WorkHours = Convert.ToDouble(Console.ReadLine());
-            employee.Salary();
+            employee.SalaryCounting();
             Console.ReadKey();
         }
     }

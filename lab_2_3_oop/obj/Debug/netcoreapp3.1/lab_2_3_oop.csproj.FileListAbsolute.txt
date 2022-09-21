@@ -12,3 +12,17 @@ C:\Users\User\source\repos\lab_2_oop\lab_2_3_oop\obj\Debug\netcoreapp3.1\lab_2_3
 C:\Users\User\source\repos\lab_2_oop\lab_2_3_oop\obj\Debug\netcoreapp3.1\lab_2_3_oop.dll
 C:\Users\User\source\repos\lab_2_oop\lab_2_3_oop\obj\Debug\netcoreapp3.1\lab_2_3_oop.pdb
 C:\Users\User\source\repos\lab_2_oop\lab_2_3_oop\obj\Debug\netcoreapp3.1\lab_2_3_oop.genruntimeconfig.cache
+C:\Users\User\source\repos\lab_2_oop\Lab_2_oop-\lab_2_3_oop\bin\Debug\netcoreapp3.1\lab_2_3_oop.exe
+C:\Users\User\source\repos\lab_2_oop\Lab_2_oop-\lab_2_3_oop\bin\Debug\netcoreapp3.1\lab_2_3_oop.deps.json
+C:\Users\User\source\repos\lab_2_oop\Lab_2_oop-\lab_2_3_oop\bin\Debug\netcoreapp3.1\lab_2_3_oop.runtimeconfig.json
+C:\Users\User\source\repos\lab_2_oop\Lab_2_oop-\lab_2_3_oop\bin\Debug\netcoreapp3.1\lab_2_3_oop.runtimeconfig.dev.json
+C:\Users\User\source\repos\lab_2_oop\Lab_2_oop-\lab_2_3_oop\bin\Debug\netcoreapp3.1\lab_2_3_oop.dll
+C:\Users\User\source\repos\lab_2_oop\Lab_2_oop-\lab_2_3_oop\bin\Debug\netcoreapp3.1\lab_2_3_oop.pdb
+C:\Users\User\source\repos\lab_2_oop\Lab_2_oop-\lab_2_3_oop\obj\Debug\netcoreapp3.1\lab_2_3_oop.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\lab_2_oop\Lab_2_oop-\lab_2_3_oop\obj\Debug\netcoreapp3.1\lab_2_3_oop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\lab_2_oop\Lab_2_oop-\lab_2_3_oop\obj\Debug\netcoreapp3.1\lab_2_3_oop.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\lab_2_oop\Lab_2_oop-\lab_2_3_oop\obj\Debug\netcoreapp3.1\lab_2_3_oop.AssemblyInfo.cs
+C:\Users\User\source\repos\lab_2_oop\Lab_2_oop-\lab_2_3_oop\obj\Debug\netcoreapp3.1\lab_2_3_oop.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\lab_2_oop\Lab_2_oop-\lab_2_3_oop\obj\Debug\netcoreapp3.1\lab_2_3_oop.dll
+C:\Users\User\source\repos\lab_2_oop\Lab_2_oop-\lab_2_3_oop\obj\Debug\netcoreapp3.1\lab_2_3_oop.pdb
+C:\Users\User\source\repos\lab_2_oop\Lab_2_oop-\lab_2_3_oop\obj\Debug\netcoreapp3.1\lab_2_3_oop.genruntimeconfig.cache

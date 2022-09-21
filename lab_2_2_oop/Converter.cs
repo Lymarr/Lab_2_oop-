@@ -5,16 +5,16 @@ using lab_2_2_oop;
 
 namespace lab_2_2_oop
 {
-    public class Converter 
+    public class Converter
     {
         public string name;
         public int money;
         public int choice;
 
-        private double usd;
-        private double eur;
-        private double rub;
-     
+        private double usd = 40.49;
+        private double eur = 39.94;
+        private double rub = 0.6;
+
         public double Usd()
         {
             return this.usd;
@@ -33,59 +33,78 @@ namespace lab_2_2_oop
             this.eur = eur;
             this.rub = rub;
         }
-        public void Converting()
+
+
+        public void AnotherCurrent()
         {
+            double result1 = this.money / Usd();
+            double result2 = this.money / Eur();
+            double result3 = this.money / Rub();
+            double result4 = this.money * Usd();
+            double result5 = this.money * Eur();
+            double result6 = this.money * Rub();
+
             switch (this.choice)
             {
                 case 1:
-                    Console.WriteLine($"Обмiн становить: {this.money / Usd() }");
+                    Console.WriteLine($"Обмiн становить:{ result1 }");
                     break;
                 case 2:
-                    Console.WriteLine($"Обмiн становить: {this.money / Eur() }");
+                    Console.WriteLine($"Обмiн становить: {result2 }");
                     break;
                 case 3:
-                    Console.WriteLine($"Обмiн становить: {this.money / Rub() }");
+                    Console.WriteLine($"Обмiн становить: {result3}");
                     break;
                 case 4:
-                    Console.WriteLine($"Обмiн становить: {this.money * Usd() }");
+                    Console.WriteLine($"Обмiн становить: {result4 }");
                     break;
                 case 5:
-                    Console.WriteLine($"Обмiн становить: {this.money * Eur() }");
+                    Console.WriteLine($"Обмiн становить: {result5}");
                     break;
                 case 6:
-                    Console.WriteLine($"Обмiн становить: {this.money * Rub() }");
+                    Console.WriteLine($"Обмiн становить: {result6 }");
                     break;
             }
         }
-    }
-
-    public class Input : Converter
-    {
-        public Input(double usd, double eur, double rub) : base(usd, eur, rub)
+        public void CheckingCurrent()
         {
-        } 
-        public void Print_money()
-        {
-            Print_choice();
-            Console.WriteLine("Введiть суму, яку бажаєте обмiняти:");
-            tryagain:
-            this.money = Convert.ToInt32(Console.ReadLine());
-            if (this.money < 0)
+            while (true)
             {
-                Console.WriteLine("Щось пішло не так! Введiть число, починаючи з нуля");
-                goto tryagain;
+                var input1 = Console.ReadLine();
+
+                 if (int.TryParse(input1, out this.money) || this.money < 0) 
+                    break;
+                else
+                {
+                    Console.WriteLine("Щось пішло не так! Введiть число, починаючи з нуля");
+                    Console.WriteLine("Спробуйте знову:");
+                }
+
             }
         }
-   
-        private void Print_choice()
+
+        public void CheckingChoice()
         {
-            start:
-            this.choice = Convert.ToInt32(Console.ReadLine());
-            if (this.choice > 6 || this.choice < 0)
+            while (true)
             {
-                Console.WriteLine("Щось пiшло не так! Введiть цифру від 1 до 6!");
-                goto start;
-            }           
+                var input2 = Console.ReadLine();
+                if (this.choice <= 6 || this.choice >= 1)
+                    break;
+                if (int.TryParse(input2, out this.choice))
+                    break;
+                else
+                {
+                    Console.WriteLine("Щось пiшло не так! Введiть цифру від 1 до 6!");
+                    Console.WriteLine("Спробуйте знову");
+                }
+            }
+            
+
         }
     }
 }
+      
+
+    
+
+

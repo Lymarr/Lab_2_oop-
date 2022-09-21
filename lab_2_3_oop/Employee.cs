@@ -26,7 +26,7 @@ namespace lab_2_3_oop
                 Console.WriteLine($" First name of employee: {fname} {'\n'} Last name of the employee: {lname}");
             }
 
-        public void Post()
+        public void PostChoosing()
         {
             switch(this.post)
             {
@@ -43,10 +43,12 @@ namespace lab_2_3_oop
 
 
         }
-            public void Salary()
-            { 
-                Console.WriteLine("Salary with no taxes is:" + (this.WorkHours * this.PayRate));
-                Console.WriteLine("Salary with taxes is:" + (this.WorkHours * this.PayRate * this.taxes));
+            public void SalaryCounting()
+            {
+            double fullsalary = this.WorkHours * this.PayRate;
+            double salarywtaxies = this.WorkHours * this.PayRate * this.taxes;
+                Console.WriteLine("Salary with no taxes is: " + fullsalary);
+                Console.WriteLine("Salary with taxes is: " + salarywtaxies);
             }
 
         private void Expirience_director()
