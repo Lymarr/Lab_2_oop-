@@ -5,7 +5,7 @@ using lab_2_4_oop;
 
 namespace lab_2_4_oop
 {
-    class User
+    public class User
     {
 
         private string login = "3O45dW.3";
@@ -20,9 +20,9 @@ namespace lab_2_4_oop
             get { return this.date; }
         }
 
-        public User()
+        public User(string date)
         {
-            this.date = "12/04/2020";
+            this.date = date;
         }
 
         public void Print()

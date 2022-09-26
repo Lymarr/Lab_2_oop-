@@ -8,7 +8,7 @@ namespace lab_2_4_oop
     {
         static void Main(string[] args)
         {
-            User user = new User();
+            User user = new User("19/09/22");
             user.Print();
             Console.ReadKey();
         }
